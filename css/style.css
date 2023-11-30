@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(101, 101, 160);
+}
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -9,12 +13,12 @@
   margin-bottom: 3rem;
 }
 
-img {
+.thumbnail {
     border: 3px solid white;
     transition: box-shadow .5s ease-in-out;
 }
 
-img:hover {
+.thumbnail:hover {
     box-shadow: 5px 10px 10px rgb(52, 50, 112);
 }
 
@@ -37,6 +41,7 @@ img:hover {
     padding-left: 1rem;
     color:rgb(52, 50, 112);
     transition: outline .5s ease-in, box-shadow .7s ease;
+    width: 90%;
 }
 
  input[type="search"]:focus {
@@ -44,8 +49,10 @@ img:hover {
     box-shadow: 5px 10px 10px rgb(52, 50, 112);
 }
 
-body {
-    background-color: rgb(101, 101, 160);
+
+
+.gallery-container a {
+    text-align: center;
 }
 
 
