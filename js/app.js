@@ -1,4 +1,4 @@
-//run the gallery plug-in
+//run the gallery lighthouse plug-in
 baguetteBox.run('.gallery-container');
 
 //target the search input
