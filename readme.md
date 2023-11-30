@@ -1,0 +1,1 @@
+This is the project for the unit 5 of Treehouse front-end development tech degree. It's an image gallery built using CSS grids. The user can search for an image using the search input. 
