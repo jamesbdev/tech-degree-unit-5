@@ -5,8 +5,7 @@ body {
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  column-gap: 2rem;
-  row-gap: 2rem;
+  grid-gap: 1.7rem 1.8rem;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -61,4 +60,9 @@ body {
     .input-container input[type="search"] {
        width: 60%
     }
+
+    .gallery-container a {
+        text-align: left;
+    }
+    
 }
